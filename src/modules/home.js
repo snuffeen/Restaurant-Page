@@ -1,6 +1,8 @@
+export {homePage}
+
 const container = document.querySelector("#content")
 
-function homepage () {
+function homePage () {
     container.textContent = ""
     addReviewDiv()
     addScheduleDiv()
@@ -57,5 +59,3 @@ function addLocationDiv() {
     location.appendChild(locationAddress)
     container.appendChild(location)
 }
-
-export {homepage}

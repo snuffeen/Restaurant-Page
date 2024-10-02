@@ -1,8 +1,8 @@
 import "./styles.css"
 
-import { homepage } from "./modules/home"
+import { homePage } from "./modules/home"
 
 const home = document.querySelector(".home")
 
-home.addEventListener("click", homepage)
+home.addEventListener("click", homePage)
 alert('QQQ')
